@@ -1,4 +1,4 @@
 ## One File Linux
-Live linux distro combined in one ~20MB file. Runs on any UEFI computer (PC or Mac) without installation. Just copy one file to EFI system partition and boot.
+Live linux distro combined in one file. Runs on any UEFI computer (PC or Mac) without installation. Just copy one file to EFI system partition and boot.
 
-<img width=600 alt="One File Linux" src="https://hub.zhovner.com/img/one-file-linux.png" />
+<img width=600 alt="One File Linux" src="/" />
