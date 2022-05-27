@@ -33,7 +33,7 @@ echo "  | /\`\_\`>  <_/\`\ | "
 echo "  | \__/'---'\__/ | "
 echo "  |_______________| "
 echo "                    "
-echo "   OneFileLinux.efi "
+echo "          linux.efi "
 
 ##########################
 # Checking root filesystem
@@ -137,9 +137,9 @@ make -j$THREADS
 # Get builded file
 ##########################
 
-cp arch/x86/boot/bzImage ../OneFileLinux.efi
+cp arch/x86/boot/bzImage ../linux.efi
 cd ..
 
 echo "----------------------------------------------------"
-echo -e "\nBuilded successfully: $(pwd)/OneFileLinux.efi\n"
-echo -e "File size: $(du -sh OneFileLinux.efi | cut -f1)\n"
+echo -e "\nBuilded successfully: $(pwd)/linux.efi\n"
+echo -e "File size: $(du -sh linux.efi | cut -f1)\n"
